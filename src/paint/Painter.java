@@ -41,7 +41,7 @@ public class Painter extends JFrame implements ActionListener {
 	protected String isFilled;
 	
 	public Painter(){
-		setAlwaysOnTop(true);
+	
 		// Set the UI theme
 		try {
             for (LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
