@@ -13,7 +13,7 @@ public class Painter extends JFrame implements ActionListener {
 	protected	String menuBar[]={"File(F)","Edit(E)","View(V)","Help(H)"};
 	protected	String menuItem[][]={
 		{"New File(N)|78","Open(O)|79","Save(S)|83","Save As(A)","Exit(X)|88"},
-		{"Redo(U)|90","Undo(R)|89","Cut(T)|87","Copy(C)|68","Paste(P)|85"},
+		{"Undo(U)|90","Redo(R)|89","Cut(T)|87","Copy(C)|68","Paste(P)|85"},
 		{"ToolKit(T)|84","Color(C)|76","Status(S)","Property(M)"},
 	};
 	protected JMenuItem jMenuItem[][]=new JMenuItem[4][5];
